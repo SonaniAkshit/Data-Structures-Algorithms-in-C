@@ -31,8 +31,11 @@
   <component name="ChangeListManager">
     <list default="true" id="798f91fd-93f1-4b41-b167-b728fcf052c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/C Flow Control/C if else Statement/Nested if...else.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic C/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Basic C/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nested if...else" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/if statement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/if statement.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +85,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/GitHub Repo's/Data-Structures-Algorithms-in-C",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,13 +95,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.Nested if...else.c">
-    <configuration name="Data_Structures_Algorithms_in_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="Data_Structures_Algorithms_in_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures_Algorithms_in_C" RUN_TARGET_NAME="Data_Structures_Algorithms_in_C">
+  <component name="RunManager" selected="C/C++ File.if...else Ladder.c">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Data_Structures_Algorithms_in_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="Data_Structures_Algorithms_in_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structures_Algorithms_in_C" RUN_TARGET_NAME="Data_Structures_Algorithms_in_C">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,14 +112,20 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="demo.c" CONFIG_NAME="demo.c">
-      <option name="sourceFile" value="Linked List\demo.c" />
+    <configuration name="if statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if statement.c" CONFIG_NAME="if statement.c">
+      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if statement.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="if statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if statement.c" CONFIG_NAME="if statement.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if statement.c" />
+    <configuration name="if...else Ladder.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if...else Ladder.c" CONFIG_NAME="if...else Ladder.c">
+      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if...else Ladder.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="if...else statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if...else statement.c" CONFIG_NAME="if...else statement.c">
+      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if...else statement.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,27 +136,21 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
-      <option name="sourceFile" value="main.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="C/C++ File.if...else Ladder.c" />
+      <item itemvalue="C/C++ File.if...else statement.c" />
       <item itemvalue="C/C++ File.Nested if...else.c" />
       <item itemvalue="C/C++ File.if statement.c" />
       <item itemvalue="C/C++ File.if_statement.c" />
-      <item itemvalue="C/C++ File.demo.c" />
-      <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="CMake Application.Data_Structures_Algorithms_in_C" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.Nested if...else.c" />
+        <item itemvalue="C/C++ File.if...else Ladder.c" />
         <item itemvalue="C/C++ File.if statement.c" />
+        <item itemvalue="C/C++ File.if...else statement.c" />
+        <item itemvalue="C/C++ File.Nested if...else.c" />
         <item itemvalue="C/C++ File.if_statement.c" />
-        <item itemvalue="C/C++ File.demo.c" />
-        <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,8 @@
       <workItem from="1747120827316" duration="17000" />
       <workItem from="1747120861158" duration="530000" />
       <workItem from="1747130619415" duration="3643000" />
-      <workItem from="1747135648767" duration="1606000" />
+      <workItem from="1747135648767" duration="1654000" />
+      <workItem from="1747137345815" duration="435000" />
     </task>
     <servers />
   </component>
