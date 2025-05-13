@@ -13,7 +13,9 @@ if (test expression)
    // code
 }
 ```
-- Example [Working of if Statement](Basic C/C Flow Control/C if else Statement/if statement.c)
+- *example*
+>[Working of if Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if%20statement.c)
+
 ### How if statement works?
 - *The if statement evaluates the test expression inside the parenthesis ().*
 > - If the test expression is evaluated to true, statements inside the body of `if` are executed.
@@ -33,6 +35,9 @@ else {
     // run code if test expression is false
 }
 ```
+- *example*
+>[Working of if...else Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if...else%20statement.c)
+
 ### How if...else statement works?
 - *If the test expression is evaluated to true,*
 > - statements inside the body of `if` are executed.
@@ -64,3 +69,12 @@ else {
    // statement(s)
 }
 ```
+- *example*
+>[Working of if...else Ladder](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if...else%20Ladder.c)
+
+### Nested if...else
+- *It is possible to include an `if...else` statement inside the body of another `if...else` statement.*
+
+- ***Example***
+  - This program given below relates two integers using either `<`,` >` and `=` similar to the `if...else` ladder's example. However, we will use a nested `if...else` statement to solve this problem.
+>[Working of Nested if...else](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if...else%20Ladder.c)

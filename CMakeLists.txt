@@ -7,4 +7,6 @@ add_executable(Data_Structures_Algorithms_in_C main.c
         "Linked List/demo.c"
         "Basic C/C Flow Control/C if else Statement/if statement.c"
         "Basic C/C Flow Control/C if else Statement/if...else statement.c"
-        "Basic C/C Flow Control/C if else Statement/if...else Ladder.c")
+        "Basic C/C Flow Control/C if else Statement/if...else Ladder.c"
+        "Basic C/C Flow Control/C if else Statement/Nested if...else.c"
+)
