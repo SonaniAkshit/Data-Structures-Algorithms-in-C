@@ -1,8 +1,4 @@
-# Ignore compiled binaries
+/Linked List/*.exe
+/*.exe
 *.exe
-*.out
-*.o
-*.obj
-
-# Ignore build folders
-/build/
+\*.exe
