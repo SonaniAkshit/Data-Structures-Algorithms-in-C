@@ -3,15 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
-    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
-  </component>
-  <component name="CMakePresetLoader">{
-  &quot;useNewFormat&quot;: true
-}</component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -29,13 +23,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f91fd-93f1-4b41-b167-b728fcf052c5" name="Changes" comment="">
+    <list default="true" id="8cab5e41-6d00-4236-9b87-6f0d4d42cb12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic C/C Flow Control/C if else Statement/Nested if...else.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic C/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Basic C/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/C Flow Control/C if else Statement/if statement.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/C Flow Control/C if else Statement/if...else Ladder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/C Flow Control/C if else Statement/if...else statement.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/img/how-if-else-works-c-programming.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic C/img/working-c-if-statement.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nested if...else" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/if statement.exe" beforeDir="false" afterPath="$PROJECT_DIR$/if statement.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if statement.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/if...else Ladder" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +54,17 @@
     <option name="minorVersion" value="1.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2x20ODZf4uAckVkngZ3WS58u0FJ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2x2ZdbSSnk2j8g2jYhsqvbeygAw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "C/C++ File.Nested if...else.c.executor": "Run",
-    "C/C++ File.demo.c.executor": "Run",
-    "C/C++ File.if statement.c.executor": "Run",
-    "C/C++ File.if_statement.c.executor": "Run",
-    "C/C++ File.main.c.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-Execution": "External process execution failed",
-    "Notification.DoNotAsk-Execution": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -85,17 +74,12 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/GitHub Repo's/Data-Structures-Algorithms-in-C",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.if...else Ladder.c">
+  <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -106,75 +90,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nested if...else.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="Nested if...else.c" CONFIG_NAME="Nested if...else.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\Nested if...else.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="if statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if statement.c" CONFIG_NAME="if statement.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if statement.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="if...else Ladder.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if...else Ladder.c" CONFIG_NAME="if...else Ladder.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if...else Ladder.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="if...else statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if...else statement.c" CONFIG_NAME="if...else statement.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if...else statement.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="if_statement.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algorithms_in_C" TARGET_NAME="if_statement.c" CONFIG_NAME="if_statement.c">
-      <option name="sourceFile" value="Basic C\C Flow Control\C if else Statement\if_statement.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="C/C++ File.if...else Ladder.c" />
-      <item itemvalue="C/C++ File.if...else statement.c" />
-      <item itemvalue="C/C++ File.Nested if...else.c" />
-      <item itemvalue="C/C++ File.if statement.c" />
-      <item itemvalue="C/C++ File.if_statement.c" />
-      <item itemvalue="CMake Application.Data_Structures_Algorithms_in_C" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ File.if...else Ladder.c" />
-        <item itemvalue="C/C++ File.if statement.c" />
-        <item itemvalue="C/C++ File.if...else statement.c" />
-        <item itemvalue="C/C++ File.Nested if...else.c" />
-        <item itemvalue="C/C++ File.if_statement.c" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="798f91fd-93f1-4b41-b167-b728fcf052c5" name="Changes" comment="" />
-      <created>1747120826317</created>
+      <changelist id="8cab5e41-6d00-4236-9b87-6f0d4d42cb12" name="Changes" comment="" />
+      <created>1747138216964</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747120826317</updated>
-      <workItem from="1747120827316" duration="17000" />
-      <workItem from="1747120861158" duration="530000" />
-      <workItem from="1747130619415" duration="3643000" />
-      <workItem from="1747135648767" duration="1654000" />
-      <workItem from="1747137345815" duration="435000" />
+      <updated>1747138216964</updated>
+      <workItem from="1747138218672" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VCPKGProject">
-    <isAutomaticCheckingOnLaunch value="false" />
-    <isAutomaticFoundErrors value="true" />
-    <isAutomaticReloadCMake value="true" />
   </component>
 </project>

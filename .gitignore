@@ -1,0 +1,33 @@
+# === Binary and object files ===
+*.o
+*.exe
+*.out
+*.a
+*.so
+core
+
+# === Temporary and log files ===
+*.log
+*.tmp
+*~
+*.swp
+*.swo
+
+# === IDE and Editor folders ===
+.idea/
+.vscode/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Build files ===
+build/
+
+# === CMake files ===
+CMakeLists.txt
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeFiles/
