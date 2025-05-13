@@ -13,6 +13,7 @@ if (test expression)
    // code
 }
 ```
+- Example [Working of if Statement](Basic C/C Flow Control/C if else Statement/if statement.c)
 ### How if statement works?
 - *The if statement evaluates the test expression inside the parenthesis ().*
 > - If the test expression is evaluated to true, statements inside the body of `if` are executed.
