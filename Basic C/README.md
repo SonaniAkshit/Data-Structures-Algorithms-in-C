@@ -6,8 +6,7 @@
 ### 1) C if...else Statement
 
 - **C if Statement**
-<br>
-*The syntax of the if statement in C programming is:*
+- *The syntax of the if statement in C programming is:*
 ```c
 if (test expression) 
 {
@@ -15,6 +14,6 @@ if (test expression)
 }
 ```
 - **How if statement works?**
-<br>*The if statement evaluates the test expression inside the parenthesis ().*
+- *The if statement evaluates the test expression inside the parenthesis ().*
 > - If the test expression is evaluated to true, statements inside the body of `if` are executed.
 > - If the test expression is evaluated to false, statements inside the body of `if` are not executed.
