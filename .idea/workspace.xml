@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b882c47-7818-492f-9594-b58f7ed415d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/demo.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.exe" beforeDir="false" />
-    </list>
+    <list default="true" id="0b882c47-7818-492f-9594-b58f7ed415d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +17,9 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2x1xKua1JY7k1qV41fwkZyafIZR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +27,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.demo.c.executor": "Run",
+    "C/C++ File.demo.h.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -41,7 +42,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.demo.h">
+  <component name="RunManager" selected="C/C++ File.demo.c (1)">
+    <configuration name="demo.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data-Structures-Algorithms-in-C" TARGET_NAME="demo.c" CONFIG_NAME="demo.c">
+      <option name="sourceFile" value="Linked List\demo.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="demo.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data-Structures-Algorithms-in-C" TARGET_NAME="demo.c" CONFIG_NAME="demo.c">
       <option name="sourceFile" value="demo.c" />
       <method v="2">
@@ -56,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.demo.c (1)" />
         <item itemvalue="C/C++ File.demo.h" />
         <item itemvalue="C/C++ File.demo.c" />
       </list>
@@ -68,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747119320893</updated>
-      <workItem from="1747119321898" duration="152000" />
+      <workItem from="1747119321898" duration="227000" />
     </task>
     <servers />
   </component>
