@@ -1,9 +1,9 @@
-# 🧑🏻‍💻Getting Started with ©️ C Programming
+# Getting Started with C Programming 🧑🏻‍💻
 - ***C is a powerful general-purpose programming language known for its efficiency and flexibility***.
 
 # 🔁C Flow Control
 
-## 🧠 1) `if...else` Statements in C
+## 1) `if...else` Statements in C
 
 ### ✅ Simple `if` Statement
 📌 **Syntax:**
@@ -97,7 +97,7 @@ if (a > b)
 printf("Hi");
 ```
 ---
-## 🧠 2) Loops in C
+## 2) Loops in C
 In programming, a loop is used to repeat a block of code until the specified condition is met.
 
 C programming has three types of loops:
@@ -181,6 +181,27 @@ If `testExpression` is **false,** the loop ends.
 >[🔗 Example `do...while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex%20do%20while%20loop.c)
 
 
+# 3) Break and continue in C
+
+## Break
+
+**📌 Syntax:**
+```c++
+break;
+```
+
+The break statement is almost always used with `if...else` statement inside the loop.
+
+### 📌 How break statement works?
+![Working of for loop](../img/c-break-statement-works.webp)
+>[🔗 Example `break;` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex%20break%20while%20loop.c)
+
+This program calculates the sum of a maximum of 10 numbers. Why a maximum of 10 numbers? It's because if the user enters a negative number, the `break` statement is executed. This will end the `for` loop, and the `sum` is displayed.
+
+
+
+
+
 ---
 ### 🤝Clone & Setup
 ```bash
@@ -188,7 +209,7 @@ git clone https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C.git
 cd Data-Structures-Algorithms-in-C
 ```
 
-## 🙌 Contributing
+## 🙌 Contributing[README.md](README.md)
 - Pull requests and feedback are welcome! Whether it's fixing bugs, improving UI, or adding features — your help is appreciated.
 
 ## 📧 Contact
