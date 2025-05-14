@@ -114,25 +114,48 @@ for (initializationStatement; testExpression; updateStatement)
     // statements inside the body of loop
 }
 ```
-### 📌 How it works:
+### 📌 How for loop works?
 
-1) The initialization runs once.
+The initialization runs once.
 
-2) The test condition is checked:
-    - If true: execute the loop body.
-    - If false: exit the loop.
+The test condition is checked:
+- If true: execute the loop body.
+- If false: exit the loop.
 
-3) After each iteration, the update statement runs.
+After each iteration, the update statement runs.
 
-4) Repeat until the test condition becomes false.
-### 🖼️ Flowchart of `for` loop:
+Repeat until the test condition becomes false.
+
+### 📈 Flowchart of `for` loop:
 ![Working of for loop](img/c-for-loop.webp)
 
 >[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex1%20for%20loop.c)
 
 >[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex2%20for%20loop.c)
 
+## 🧮 `while`  Loop
 
+📌 **Syntax**:
+```c++
+while (testExpression) {
+  // the body of the loop 
+}
+```
+### 📌 How while loop works?
+The `while` loop evaluates the `testExpression` inside the parentheses `()`.
+
+If `testExpression` is **true,** statements inside the body of `while` loop are executed. 
+Then, `testExpression` is evaluated again.
+
+The process goes on until `testExpression` is evaluated to **false.**
+
+If `testExpression` is **false,** the loop terminates (ends).
+
+### 📈 Flowchart of while loop
+![Working of for loop](img/c-while-loop_0.webp)
+>[🔗 Example while loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20while%20loop.c)
+
+---
 ### 🤝Clone & Setup
 ```bash
 git clone https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C.git
