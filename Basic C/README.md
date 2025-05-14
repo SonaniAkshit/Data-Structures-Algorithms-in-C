@@ -97,7 +97,7 @@ if (a > b)
 printf("Hi");
 ```
 ---
-## 🔁 2) Loops in C
+# 🔁 2) Loops in C
 In programming, a loop is used to repeat a block of code until the specified condition is met.
 
 C programming has three types of loops:
