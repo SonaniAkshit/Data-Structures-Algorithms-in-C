@@ -21,7 +21,7 @@ if (test expression)
   - If the test expression is evaluated to false, statements inside the body of `if` are not executed.
 
 ### 📝 Working of if Statement
-![Working of if Statement](img/working-c-if-statement.webp)
+![Working of if Statement](../img/working-c-if-statement.webp)
 
 
 ### ⚖️ `if...else` Statement
@@ -47,7 +47,7 @@ else {
   - statements inside the body of if are skipped from execution.
 
 ### 📝 Working of if...else Statement
-![Working of if Statement](img/how-if-else-works-c-programming.webp)
+![Working of if Statement](../img/how-if-else-works-c-programming.webp)
 
 ### 🪜 `if...else if` Ladder
 The `if...else` statement executes two different codes depending upon whether the test expression is true or false. Sometimes, a choice has to be made from more than 2 possibilities.*
@@ -127,7 +127,7 @@ After each iteration, the update statement runs.
 Repeat until the test condition becomes false.
 
 ### 📈 Flowchart of `for` loop:
-![Working of for loop](img/c-for-loop.webp)
+![Working of for loop](../img/c-for-loop.webp)
 
 >[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex1%20for%20loop.c)
 
@@ -152,7 +152,7 @@ The process goes on until `testExpression` is evaluated to **false.**
 If `testExpression` is **false,** the loop terminates (ends).
 
 ### 📈 Flowchart of while loop
-![Working of for loop](img/c-while-loop_0.webp)
+![Working of for loop](../img/c-while-loop_0.webp)
 >[🔗 Example while loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20while%20loop.c)
 
 ## 🧮 `do...while`  Loop
@@ -177,7 +177,7 @@ This process goes on until testExpression becomes **false.**
 If `testExpression` is **false,** the loop ends.
 
 ### 📈 Flowchart of do...while loop
-![Working of for loop](img/c-do-while-loop_0.webp)
+![Working of for loop](../img/c-do-while-loop_0.webp)
 >[🔗 Example while loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20do%20while%20loop.c)
 
 
