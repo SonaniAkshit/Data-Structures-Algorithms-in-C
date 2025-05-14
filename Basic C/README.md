@@ -97,7 +97,7 @@ if (a > b)
 printf("Hi");
 ```
 ---
-# 🔁 2) Loops in C
+## 🧠 2) Loops in C
 In programming, a loop is used to repeat a block of code until the specified condition is met.
 
 C programming has three types of loops:
@@ -128,7 +128,10 @@ for (initializationStatement; testExpression; updateStatement)
 ### 🖼️ Flowchart of `for` loop:
 ![Working of for loop](img/c-for-loop.webp)
 
->[🔗 Example: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if%20else%20Ladder.c)
+>[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/Ex1%20for%20loop.c)
+
+>[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/Ex2%20for%20loop.c)
+
 
 ### 🤝Clone & Setup
 ```bash
