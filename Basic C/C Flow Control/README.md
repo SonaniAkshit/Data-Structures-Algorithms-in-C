@@ -153,7 +153,7 @@ If `testExpression` is **false,** the loop terminates (ends).
 
 ### 📈 Flowchart of while loop
 ![Working of for loop](../img/c-while-loop_0.webp)
->[🔗 Example while loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20while%20loop.c)
+>[🔗 Example `while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20while%20loop.c)
 
 ## 🧮 `do...while`  Loop
 The `do..while` loop is similar to the `while` loop with one important difference. The body of `do...while` loop is executed at least once. Only then, the test expression is evaluated.
@@ -178,7 +178,7 @@ If `testExpression` is **false,** the loop ends.
 
 ### 📈 Flowchart of do...while loop
 ![Working of for loop](../img/c-do-while-loop_0.webp)
->[🔗 Example while loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20do%20while%20loop.c)
+>[🔗 Example `do...while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20do%20while%20loop.c)
 
 
 ---
