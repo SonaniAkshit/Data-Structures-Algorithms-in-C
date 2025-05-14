@@ -13,7 +13,7 @@ if (test expression)
    // code
 }
 ```
->[🔗 Example: `if` Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if%20statement.c)
+>[🔗 Example: `if` Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20statement.c)
 
 ### 📌 How if statement works?
 - The if statement evaluates the test expression inside the parenthesis ().
@@ -36,7 +36,7 @@ else {
     // run code if test expression is false
 }
 ```
->[🔗 Example: `if...else` Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if%20else%20statement.c)
+>[🔗 Example: `if...else` Statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
 
 ### 📌 How if...else statement works?
 - If the test expression is evaluated to true,
@@ -71,7 +71,7 @@ else {
    // statement(s)
 }
 ```
->[🔗 Example: `if...else if` Ladder](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/if%20else%20Ladder.c)
+>[🔗 Example: `if...else if` Ladder](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20Ladder.c)
 
 ### 🧩 Nested if...else
 It is possible to include an `if...else` statement inside the body of another `if...else` statement.*
@@ -79,7 +79,7 @@ It is possible to include an `if...else` statement inside the body of another `i
 **Example:**
 
 This program given below relates two integers using either `<`,` >` and `=` similar to the `if...else` ladder's example. However, we will use a nested `if...else` statement to solve this problem.
->[🔗 Example: Nested `if...else`](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if%20else%20Statement/Nested%20if%20else.c)
+>[🔗 Example: Nested `if...else`](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/Nested%20if%20else.c)
 
 - **If the body of an `if...else` statement has only one statement, you do not need to use brackets `{}`.**
 
@@ -129,9 +129,9 @@ Repeat until the test condition becomes false.
 ### 📈 Flowchart of `for` loop:
 ![Working of for loop](../img/c-for-loop.webp)
 
->[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex1%20for%20loop.c)
+>[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex1%20for%20loop.c)
 
->[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex2%20for%20loop.c)
+>[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex2%20for%20loop.c)
 
 ## 🧮 `while`  Loop
 
@@ -153,7 +153,7 @@ If `testExpression` is **false,** the loop terminates (ends).
 
 ### 📈 Flowchart of while loop
 ![Working of for loop](../img/c-while-loop_0.webp)
->[🔗 Example `while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20while%20loop.c)
+>[🔗 Example `while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex%20while%20loop.c)
 
 ## 🧮 `do...while`  Loop
 The `do..while` loop is similar to the `while` loop with one important difference. The body of `do...while` loop is executed at least once. Only then, the test expression is evaluated.
@@ -178,7 +178,7 @@ If `testExpression` is **false,** the loop ends.
 
 ### 📈 Flowchart of do...while loop
 ![Working of for loop](../img/c-do-while-loop_0.webp)
->[🔗 Example `do...while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex%20do%20while%20loop.c)
+>[🔗 Example `do...while` loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex%20do%20while%20loop.c)
 
 
 ---
