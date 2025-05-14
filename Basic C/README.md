@@ -130,7 +130,7 @@ for (initializationStatement; testExpression; updateStatement)
 
 >[🔗 Example1: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex1%20for%20loop.c)
 
->[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex1%20for%20loop.c)
+>[🔗 Example2: `for` Loop](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Loops/Ex2%20for%20loop.c)
 
 
 ### 🤝Clone & Setup
