@@ -255,7 +255,7 @@ The `expression` is evaluated once and compared with the values of each `case` l
 
 ### 📈 switch Statement Flowchart
 ![Working of for loop](../img/flowchart-switch-statement.webp)
->[🔗 Example `switch` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20break%20and%20continue/Ex%20continue%20statement.c)
+>[🔗 Example `switch` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20switch%20Statement/Ex%20switch%20statement.c)
 
 
 
