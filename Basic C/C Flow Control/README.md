@@ -200,6 +200,62 @@ This program calculates the sum of a maximum of 10 numbers. Why a maximum of 10 
 
 In C, `break` is also used with the `switch` statement.
 
+## Continue
+
+The `continue` statement skips the current iteration of the loop and continues with the next iteration
+
+**📌 Syntax:**
+```c++
+continue;
+```
+The `continue` statement is almost always used with the `if...else` statement.
+
+### 📝 How break statement works?
+![Working of for loop](../img/c-continue-statement-works.webp)
+>[🔗 Example `continue;` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20break%20and%20continue/Ex%20continue%20statement.c)
+
+In this program, when the user enters a positive number, the sum is calculated using `sum += number;` statement.
+
+When the user enters a negative number, the `continue` statement is executed and it skips the negative number from the calculation.
+
+## 4) C switch Statement 
+
+The switch statement allows us to execute one code block among many alternatives.
+
+You can do the same thing with the `if...else..if` ladder. However, the syntax of the `switch` statement is much easier to read and write.
+
+**📌 Syntax:**
+```c++
+switch (expression)
+{
+    case constant1:
+      // statements
+      break;
+
+    case constant2:
+      // statements
+      break;
+    .
+    .
+    .
+    default:
+      // default statements
+}
+```
+
+### 📌 How does the switch statement work?
+
+The `expression` is evaluated once and compared with the values of each `case` label.
+  
+  -  If there is a match, the corresponding statements after the matching label are executed. For example, if the value of the expression is equal to `constant2`, statements after `case constant2:` are executed until `break` is encountered.
+  -  If there is no match, the default statements are executed.
+  > **Notes:** 
+  > - If we do not use the `break` statement, all statements after the matching label are also executed. 
+  > - The `default` clause inside the `switch` statement is optional.
+
+### 📈 switch Statement Flowchart
+![Working of for loop](../img/flowchart-switch-statement.webp)
+>[🔗 Example `switch` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20break%20and%20continue/Ex%20continue%20statement.c)
 
 
 
