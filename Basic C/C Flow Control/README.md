@@ -210,7 +210,7 @@ git clone https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C.git
 cd Data-Structures-Algorithms-in-C
 ```
 
-## 🙌 Contributing[README.md](README.md)
+## 🙌 Contributing
 - Pull requests and feedback are welcome! Whether it's fixing bugs, improving UI, or adding features — your help is appreciated.
 
 ## 📧 Contact
