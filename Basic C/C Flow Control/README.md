@@ -192,12 +192,13 @@ break;
 
 The break statement is almost always used with `if...else` statement inside the loop.
 
-### 📌 How break statement works?
+### 📝 How break statement works?
 ![Working of for loop](../img/c-break-statement-works.webp)
->[🔗 Example `break;` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20Loops/Ex%20break%20while%20loop.c)
+>[🔗 Example `break;` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20break%20and%20continue/Ex%20break%20statement.c)
 
 This program calculates the sum of a maximum of 10 numbers. Why a maximum of 10 numbers? It's because if the user enters a negative number, the `break` statement is executed. This will end the `for` loop, and the `sum` is displayed.
 
+In C, `break` is also used with the `switch` statement.
 
 
 
