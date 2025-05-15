@@ -258,6 +258,38 @@ The `expression` is evaluated once and compared with the values of each `case` l
 >[🔗 Example `switch` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20switch%20Statement/Ex%20switch%20statement.c)
 
 
+# 5) C goto Statement
+
+The `goto` statement allows us to transfer control of the program to the specified `label`.
+
+**📌 Syntax:**
+```c++
+goto label;
+... .. ...
+... .. ...
+label: 
+statement;
+```
+
+The `label` is an identifier. When the `goto` statement is encountered, the control of the program jumps to `label:` and starts executing the code.
+
+### 📌 How does the switch statement work?
+
+![Working of for loop](../img/c-goto-statement.webp)
+>[🔗 Example `goto` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20switch%20Statement/Ex%20switch%20statement.c)
+
+### 📌 Should you use goto?
+
+If you think the use of `goto` statement simplifies your program, you can use it. That being said, `goto` is rarely useful and you can create any C program without using `goto` altogether.
+
+***"The fact that 'goto' can do anything is exactly why we don't use it."***
+
+<div align="center">
+
+# End of C Flow Control
+
+</div>
+
 
 ---
 ### 🤝Clone & Setup
