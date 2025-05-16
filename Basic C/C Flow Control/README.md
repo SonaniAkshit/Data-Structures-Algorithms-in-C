@@ -303,7 +303,7 @@ cd Data-Structures-Algorithms-in-C
 
 ## 📧 Contact
 - **Developer:** Akshit Sonani
-- **Email:** sonaniakshit684.com
+- **Email:** sonaniakshit684@gmail.com
 - **GitHub:** [SonaniAkshit](https://github.com/SonaniAkshit)
 
 # 🔥 Happy Coding! 🚀
