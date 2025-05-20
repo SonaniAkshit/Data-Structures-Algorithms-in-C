@@ -1,6 +1,3 @@
-# Getting Started with C Programming 🧑🏻‍💻
-- ***C is a powerful general-purpose programming language known for its efficiency and flexibility***.
-
 # 🔁C Flow Control
 
 ## 1) `if...else` Statements in C
