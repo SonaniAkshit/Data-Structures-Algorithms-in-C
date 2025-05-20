@@ -16,7 +16,7 @@ There are two types of function in C programming:
 - Standard library functions 
 - User-defined functions
 
-## 📌 Standard library functions
+## 🖇️ Standard library functions
 
 Standard library functions or simply C Library functions are inbuilt functions in C programming.
 
@@ -52,7 +52,7 @@ If you try to use `printf()` without including the `stdio.h` header file, you wi
 |<string.h>	|String handling functions|
 |<time.h>	|Date time functions|
 
-## 📌 User-defined function
+## 👩🏻‍💻 User-defined function
 
 You can also create functions as per your need. Such functions created by the user are known as user-defined functions.
 
@@ -231,3 +231,152 @@ Depending on whether `flag` is **0** or **1**, an appropriate message is printed
 Well, it depends on the problem you are trying to solve. In this case, passing an argument and returning a value from the function (example 4) is better.
 
 A function should perform a specific task. The `checkPrimeNumber()` function doesn't take input from the user nor it displays the appropriate message. It only checks whether a number is prime or not.
+
+## 🔁 Recursion
+
+Recursion is the process of defining something in terms of itself.
+
+A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
+
+In C, we know that a function can call other functions. It is even possible for the function to call itself. These types of construct are termed as recursive functions.
+
+### 📌 How recursion works?
+```c++
+void recurse()
+{
+    ... .. ...
+    recurse();
+    ... .. ...
+}
+
+int main()
+{
+    ... .. ...
+    recurse();
+    ... .. ...
+}
+```
+![Working of if Statement](../img/how-recursion-works-c_0.jpg)
+
+The recursion continues until some condition is met to prevent it.
+
+To prevent infinite recursion, `if...else` statement (or similar approach) can be used where one branch makes the recursive call, and other doesn't.
+
+>[🔗 Example: Sum of Natural Numbers Using Recursion](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+
+Initially, the `sum()` is called from the `main()` function with `number` passed as an argument.
+
+Suppose, the value of `n` inside `sum()` is 3 initially. During the next function call, 2 is passed to the `sum()` function. This process continues until `n` is equal to 0.
+
+When `n` is equal to 0, the `if` condition fails and the `else` part is executed returning the sum of integers ultimately to the `main()` function.
+
+![Working of if Statement](../img/recursion-natural-numbers.png)
+
+### 📌 Advantages and Disadvantages of Recursion
+
+Recursion makes program elegant. However, if performance is vital, use loops instead as recursion is usually much slower.
+
+That being said, recursion is an important concept. It is frequently used in data structure and algorithms. For example, it is common to use recursion in problems such as tree traversal.
+
+## ☑️ Storage Class
+
+Every variable in C programming has two properties: type and storage class.
+
+Type refers to the data type of a variable. And, storage class determines the scope, visibility and lifetime of a variable.
+
+There are 4 types of storage class:
+
+1) automatic
+2) external
+3) static
+4) register
+
+### 📌 Local Variable
+
+The variables declared inside a block are automatic or local variables. The local variables exist only inside the block in which it is declared.
+
+Let's take an example.
+```c++
+#include <stdio.h>
+
+int main(void) {
+  
+  for (int i = 0; i < 5; ++i) {
+     printf("C programming");
+  }
+  
+ // Error: i is not declared at this point
+  printf("%d", i);  
+  return 0;
+}
+```
+When you run the above program, you will get an error `undeclared identifier i`. It's because `i` is declared inside the `for` loop block. Outside of the block, it's undeclared.
+
+Let's take another example.
+```c++
+
+int main() {
+    int n1; // n1 is a local variable to main()
+}
+
+void func() {
+   int n2;  // n2 is a local variable to func()
+}
+```
+In the above example, `n1` is local to `main()` and `n2` is local to `func()`.
+
+This means you cannot access the `n1` variable inside `func()` as it only exists inside `main()`. Similarly, you cannot access the `n2` variable inside `main()` as it only exists inside `func()`.
+
+### 📌 Global Variable
+
+Variables that are declared outside of all functions are known as external or global variables. They are accessible from any function inside the program.
+
+>[🔗 Example Global Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+
+Suppose, a global variable is declared in `file1`. If you try to use that variable in a different file `file2`, the compiler will complain. To solve this problem, keyword `extern` is used in `file2` to indicate that the external variable is declared in another file.
+
+### 📌 Register Variable
+
+The `register` keyword is used to declare register variables. Register variables were supposed to be faster than local variables.
+
+However, modern compilers are very good at code optimization, and there is a rare chance that using register variables will make your program faster.
+
+Unless you are working on embedded systems where you know how to optimize code for the given application, there is no use of register variables.
+
+### 📌 Static Variable
+A static variable is declared by using the `static` keyword. For example;
+```c++
+static int i;
+```
+The value of a static variable persists until the end of the program.
+
+>[🔗 Example Static Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+
+During the first function call, the value of `c` is initialized to 1. Its value is increased by 5. Now, the value of `c` is 6, which is printed on the screen.
+
+During the second function call, `c` is not initialized to 1 again. It's because `c` is a static variable. The value `c` is increased by 5. Now, its value will be 11, which is printed on the screen.
+
+<div align="center">
+
+# End of C Functions
+
+</div>
+
+
+---
+### 🤝Clone & Setup
+```bash
+git clone https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C.git
+cd Data-Structures-Algorithms-in-C
+```
+
+## 🙌 Contributing
+- Pull requests and feedback are welcome! Whether it's fixing bugs, improving UI, or adding features — your help is appreciated.
+
+## 📧 Contact
+- **Developer:** Akshit Sonani
+- **Email:** sonaniakshit684@gmail.com
+- **GitHub:** [SonaniAkshit](https://github.com/SonaniAkshit)
+
+# 🔥 Happy Coding! 🚀
+### ⭐ Star this repository if you find it helpful!
