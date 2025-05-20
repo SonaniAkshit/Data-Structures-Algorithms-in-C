@@ -1,4 +1,4 @@
-# 🤖 C Functions
+# 🤖 Functions
 
 A function is a block of code that performs a specific task.
 
@@ -358,7 +358,7 @@ During the second function call, `c` is not initialized to 1 again. It's because
 
 <div align="center">
 
-# End of C Functions
+# End of Functions
 
 </div>
 

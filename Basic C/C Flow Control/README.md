@@ -1,4 +1,4 @@
-# 🔁C Flow Control
+# 🔁 Flow Control
 
 ## 1) `if...else` Statements in C
 
@@ -94,7 +94,7 @@ if (a > b)
 printf("Hi");
 ```
 ---
-## 2) Loops in C
+## 2) Loops
 In programming, a loop is used to repeat a block of code until the specified condition is met.
 
 C programming has three types of loops:
@@ -215,7 +215,7 @@ In this program, when the user enters a positive number, the sum is calculated u
 
 When the user enters a negative number, the `continue` statement is executed and it skips the negative number from the calculation.
 
-## 4) C switch Statement 
+## 4) switch Statement 
 
 The switch statement allows us to execute one code block among many alternatives.
 
@@ -255,7 +255,7 @@ The `expression` is evaluated once and compared with the values of each `case` l
 >[🔗 Example `switch` statement](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/Ex%20switch%20statement.c)
 
 
-# 5) C goto Statement
+# 5) goto Statement
 
 The `goto` statement allows us to transfer control of the program to the specified `label`.
 
@@ -283,7 +283,7 @@ If you think the use of `goto` statement simplifies your program, you can use it
 
 <div align="center">
 
-# End of C Flow Control
+# End of Flow Control
 
 </div>
 
