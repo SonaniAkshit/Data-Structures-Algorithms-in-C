@@ -34,7 +34,7 @@ int main()
 ```
 If you try to use `printf()` without including the `stdio.h` header file, you will get an error.
 
->[🔗 Example: Square root using sqrt() function](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example: Square root using sqrt() function](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
 
 ### 📌 Library Functions in Different Header Files
 
@@ -102,7 +102,7 @@ Suppose, you need to create a circle and color it depending upon the radius and 
 - `color()` function
 
 Here is an example to add two integers. To perform this task, we have created an user-defined `addNumbers()`.
->[🔗 Example: User-defined function](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example: User-defined function](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20User-defined%20function.c)
 
 ### 📌 Function prototype
 
@@ -193,7 +193,7 @@ These 4 programs below check whether the integer entered by the user is a prime 
 The output of all these programs below is the same, and we have created a user-defined function in each example. However, the approach we have taken in each example is different.
 
 **📌 Example 1:**
->[🔗 Example 1: No Argument Passed and No Return Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example 1: No Argument Passed and No Return Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20No%20Argument%20Passed%20and%20No%20Return%20Value.c)
 
 The `checkPrimeNumber()` function takes input from the user, checks whether it is a prime number or not, and displays it on the screen.
 
@@ -202,21 +202,21 @@ The empty parentheses in `checkPrimeNumber();` inside the `main()` function indi
 The return type of the function is `void`. Hence, no value is returned from the function.
 
 **📌 Example 2:**
->[🔗 Example 2: No Arguments Passed But Returns a Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example 2: No Arguments Passed But Returns a Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20No%20Arguments%20Passed%20But%20Returns%20a%20Value.c)
 
 The empty parentheses in the `n = getInteger();` statement indicates that no argument is passed to the function. And, the value returned from the function is assigned to `n`.
 
 Here, the `getInteger()` function takes input from the user and returns it. The code to check whether a number is prime or not is inside the `main()` function.
 
 **📌 Example 3:**
->[🔗 Example 3: Argument Passed But No Return Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example 3: Argument Passed But No Return Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20But%20No%20Return%20Value.c)
 
 The integer value entered by the user is passed to the `checkPrimeAndDisplay()` function.
 
 Here, the `checkPrimeAndDisplay()` function checks whether the argument passed is a prime number or not and displays the appropriate message.
 
 **📌 Example 4:**
->[🔗 Example 4: Argument Passed and Returns a Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Flow%20Control/C%20if...else%20Statement/if%20else%20statement.c)
+>[🔗 Example 4: Argument Passed and Returns a Value](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
 
 The input from the user is passed to the `checkPrimeNumber()` function.
 
