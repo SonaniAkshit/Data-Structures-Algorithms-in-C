@@ -287,8 +287,6 @@ If you think the use of `goto` statement simplifies your program, you can use it
 
 </div>
 
-
----
 ### 🤝Clone & Setup
 ```bash
 git clone https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C.git
