@@ -84,9 +84,9 @@ printf("%d", mark[2]);
 // print the ith element
 printf("%d", mark[i-1]);
 ```
->[🔗 Example 1: Array Input/Output](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 1: Array Input/Output](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex1%20Array%20Input%20Output.c)
 
->[🔗 Example 2: Calculate Average](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 2: Calculate Average](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex2%20Calculate%20Average.c)
 
 ### 📌 Access elements out of its bound!
 Suppose you declared an array of 10 elements. Let's say,
@@ -137,18 +137,18 @@ int test[2][3][4] = {
     {{13, 4, 56, 3}, {5, 9, 3, 5}, {3, 1, 4, 9}}};
 ```
 
->[🔗 Example 1: Two-dimensional array to store and print values](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 1: Two-dimensional array to store and print values](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex1%20Two-dimensional%20array%20to%20store%20and%20print%20values.c)
 
->[🔗 Example 2: Sum of two matrices](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 2: Sum of two matrices](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex2%20Sum%20of%20two%20matrices.c)
 
->[🔗 Example 3: Three-dimensional array](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 3: Three-dimensional array](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex3%20Three-dimensional%20array.c)
 
 
 ## 🔧 Pass arrays to a function 
 In C programming, you can pass an entire array to functions. Before we learn that, let's see how you can pass individual elements of an array to functions.
 
 ### 📌 Pass Individual Array Elements
->[🔗 Example 1: Pass Individual Array Elements](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 1: Pass Individual Array Elements](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex1%20Pass%20Individual%20Array%20Elements.c)
 
 Here, we have passed array parameters to the `display()` function in the same way we pass variables to a function.
 ```c++
@@ -161,7 +161,7 @@ void display(int age1, int age2) {
   // code
 }
 ```
->[🔗 Example 2: Pass Arrays to Functions](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 2: Pass Arrays to Functions](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex2%20Pass%20Arrays%20to%20Functions.c)
 
 To pass an entire array to a function, only the name of the array is passed as an argument.
 
@@ -180,7 +180,7 @@ This informs the compiler that you are passing a one-dimensional array to the fu
 
 To pass multidimensional arrays to a function, only the name of the array is passed to the function (similar to one-dimensional arrays).
 
->[🔗 Example 3: Pass two-dimensional arrays](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Square%20root%20using%20function.c)
+>[🔗 Example 3: Pass two-dimensional arrays](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Programming%20Arrays/Ex3%20Pass%20two-dimensional%20arrays.c)
 
 Notice the parameter `int num[2][2]` in the function prototype and function definition:
 ```c++
