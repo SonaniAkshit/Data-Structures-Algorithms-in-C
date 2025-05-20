@@ -262,7 +262,7 @@ The recursion continues until some condition is met to prevent it.
 
 To prevent infinite recursion, `if...else` statement (or similar approach) can be used where one branch makes the recursive call, and other doesn't.
 
->[🔗 Example: Sum of Natural Numbers Using Recursion](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+>[🔗 Example: Sum of Natural Numbers Using Recursion](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Sum%20of%20Natural%20Numbers%20Using%20Recursion.c)
 
 Initially, the `sum()` is called from the `main()` function with `number` passed as an argument.
 
@@ -331,7 +331,7 @@ This means you cannot access the `n1` variable inside `func()` as it only exists
 
 Variables that are declared outside of all functions are known as external or global variables. They are accessible from any function inside the program.
 
->[🔗 Example Global Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+>[🔗 Example Global Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Global%20Variable.c)
 
 Suppose, a global variable is declared in `file1`. If you try to use that variable in a different file `file2`, the compiler will complain. To solve this problem, keyword `extern` is used in `file2` to indicate that the external variable is declared in another file.
 
@@ -350,7 +350,7 @@ static int i;
 ```
 The value of a static variable persists until the end of the program.
 
->[🔗 Example Static Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Argument%20Passed%20and%20Returns%20a%20Value.c)
+>[🔗 Example Static Variable](https://github.com/SonaniAkshit/Data-Structures-Algorithms-in-C/blob/main/Basic%20C/C%20Functions/Ex%20Static%20Variable.c)
 
 During the first function call, the value of `c` is initialized to 1. Its value is increased by 5. Now, the value of `c` is 6, which is printed on the screen.
 
